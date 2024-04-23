@@ -1,5 +1,101 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #1f3429;
+    --font: #EDE0D4
+}
+
+header {
+    background-color: var(--header-bg);
+
+
+}
+
+header a {
+    color: var(--font) !important;
+}
+
+header a:hover {
+    color: #E6CCB2 !important;
+}
+
+.upimg {
+    background-image: url("./img/pexels-designecologist-1005058.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font);
+
+}
+
+#hedbut {
+    background-color: var(--header-bg);
+    color: var(--font);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.uptext {}
+
+#hedbut:hover {
+    color: var(--header-bg);
+    background-color: var(--font);
+    transition: 0.3s;
+}
+
+/*main*/
+.sec1 {
+    text-align: center;
+
+}
+
+
+.nc h2 {
+    color: var(--header-bg);
+}
+.nc a{
+    text-decoration: none;
+    color: var(--font);
+}
+
+.nc img {
+    padding: 1.4vh;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.blurry-image {
+    width: 100%;
+    transition: filter .3s;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--font);
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-container:hover .blurry-image {
+    filter: blur(6px);
+}
+
+.image-container:hover .image-text {
+    opacity: 1;
 }
