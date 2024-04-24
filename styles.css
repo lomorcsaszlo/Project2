@@ -99,3 +99,13 @@ header a:hover {
 .image-container:hover .image-text {
     opacity: 1;
 }
+
+.nc{
+    padding: 10vh;
+}
+
+@media only screen and (max-width: 766px) {
+    .nc{
+        padding: 10px;
+    }
+  }
