@@ -4,16 +4,26 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 :root {
     --header-bg: #1f3429;
-    --font: #EDE0D4
-}
+    --font: #EDE0D4;
+    --white: #d7d7d7;}
+
+/* header .fixed-top {
+    background-color: var(--header-bg);
+    
+
+} */
 
 header {
     background-color: var(--header-bg);
-
+    
 
 }
+
 
 header a {
     color: var(--font) !important;
@@ -21,7 +31,11 @@ header a {
 
 header a:hover {
     color: #E6CCB2 !important;
-}
+} 
+
+
+
+
 
 .upimg {
     background-image: url("./img/pexels-designecologist-1005058.jpg");
@@ -41,6 +55,7 @@ header a:hover {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 30px;
+    transition: 0.3s;
 
 }
 
@@ -49,7 +64,9 @@ header a:hover {
 #hedbut:hover {
     color: var(--header-bg);
     background-color: var(--font);
-    transition: 0.3s;
+    
+    
+    
 }
 
 /*main*/
@@ -102,6 +119,7 @@ header a:hover {
 
 .nc{
     padding: 10vh;
+    background-color: var(--white);
 }
 
 
@@ -114,8 +132,17 @@ header a:hover {
 }
 
 
+
+footer{
+    height: 12vh;
+    background-color: var(--header-bg);
+}
+
+
 @media only screen and (max-width: 766px) {
     .nc{
         padding: 10px;
     }
   }
+
+
