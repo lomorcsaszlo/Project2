@@ -24,10 +24,12 @@ body{
 
 header {
     background-color: var(--header-bg);
-    margin-top: 50px;
+    
     
 }
-
+#indheader{
+    margin-top: 50px;
+}
 
 header a {
     color: var(--font) !important;
