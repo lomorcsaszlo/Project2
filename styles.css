@@ -152,7 +152,10 @@ footer{
     padding: 50px;
     text-align: center;
 }
-
+.prods{
+    text-align: center;
+    padding-bottom: 10vh;
+}
 
 @media only screen and (max-width: 991px) {
     .nc{

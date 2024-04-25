@@ -35,7 +35,9 @@ body{
 */
 
 .text1{
-    padding: 1vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 
 
