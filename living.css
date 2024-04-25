@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 0;
-}
+} */
 .headimg {
     background-image: url("./img/livingBig.jpg");
     background-repeat: no-repeat;
@@ -10,9 +10,9 @@
 
 .row img{
     max-width: 100%;
-    padding: 0;
+    /* padding: 0; */
 }
-.row .firsttext{
+/* .row .firsttext{
     padding-top: 10rem;
 }
 .row{
@@ -32,8 +32,16 @@ body{
     padding-right: 0;
 }
 
-
+*/
 
 .text1{
-    padding: 80px;
-}
+    padding: 1vh 0;
+} 
+
+
+@media only screen and (max-width: 991px) {
+    .text1{
+        padding: 10px;
+    }
+  }
+
