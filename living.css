@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .headimg {
     background-image: url("./img/livingBig.jpg");
     background-repeat: no-repeat;
@@ -7,6 +10,7 @@
 
 .row img{
     max-width: 100%;
+    padding: 0;
 }
 .row .firsttext{
     padding-top: 10rem;
@@ -19,9 +23,17 @@ body{
 }
 
 .container{
-    padding: 2rem;
+    margin-left: 7,5rem;
+    margin-right: 7,5rem;
 }
 
-#shop{
-    padding: ;
+.nc{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.text1{
+    padding: 80px;
 }
