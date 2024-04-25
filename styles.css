@@ -25,7 +25,7 @@ body{
 header {
     background-color: var(--header-bg);
     margin-bottom: 50px;
-
+    
 }
 
 
@@ -152,7 +152,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 991px) {
     .nc{
         padding: 10px;
     }
