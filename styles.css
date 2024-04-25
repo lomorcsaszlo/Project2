@@ -7,21 +7,25 @@
 html {
     scroll-behavior: smooth;
 }
+
+body{
+    font-family: "Manrope", sans-serif;
+}
 :root {
     --header-bg: #1f3429;
     --font: #EDE0D4;
     --white: #d7d7d7;}
 
-/* header .fixed-top {
+ header .fixed-top {
     background-color: var(--header-bg);
     
 
-} */
+} 
 
 header {
     background-color: var(--header-bg);
+    margin-bottom: 50px;
     
-
 }
 
 
@@ -142,10 +146,13 @@ header a:hover {
 footer{
     height: 12vh;
     background-color: var(--header-bg);
+    color: var(--font);
+    padding: 50px;
+    text-align: center;
 }
 
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 991px) {
     .nc{
         padding: 10px;
     }
