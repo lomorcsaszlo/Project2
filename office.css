@@ -1,0 +1,14 @@
+main{
+    
+}
+.upimgOF{
+    background-image: url("./img/ofi2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font);
+    
+}
