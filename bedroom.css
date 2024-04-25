@@ -1,0 +1,10 @@
+.upimgBED{
+    background-image: url("./img/bedroomUpper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font);
+}
