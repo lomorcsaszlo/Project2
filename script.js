@@ -7,7 +7,10 @@ const correct = document.getElementById("correct")
 const incorrect = document.getElementById("incorrect")
 const thxbut = document.getElementById("thx")
 const uno = document.getElementById("uno")
+
+
 let count = 0
+
 
 
 check.addEventListener("click", function () {
@@ -27,5 +30,11 @@ check.addEventListener("click", function () {
    
  
 })
+
+
+
+
+
+
 
 
