@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- a header, footer és a háttér színe szerintem maradjon -->
+<!-- a divek, classok neveit ha lehet ne változtasd meg, mert a js működése múlik rajta -->
 
 <head>
     <meta charset="UTF-8">
@@ -42,27 +44,33 @@
         </nav>
     </header>
     <main>
-         <!-- Kérdés képe: --><div id="uno" style="background-image: url('./img/bedroom2.jpg'); height: 40vh; width: 40vh; background-size: cover; background-repeat: no-repeat; margin: 0 auto;"></div>
-    <input style="font-size: 50px; height: 80px; color: black; border-radius: 20px;" id="input1" type="text">
-    <button style="font-size: 50px; height: 80px; color: black; border-radius: 20px;" id="check">Check!</button>
+            <!-- Kérdés képe: -->
+            <div id="uno"
+                style="background-image: url('./img/bedroom2.jpg'); height: 40vh; width: 40vh; background-size: cover; background-repeat: no-repeat; margin: 0 auto;">
+            </div>
+           <!-- válasz helye: --> <input style="font-size: 50px; height: 80px; color: black; border-radius: 20px;" id="input1" type="text">
+            <button style="font-size: 50px; height: 80px; color: black; border-radius: 20px;" id="check">Check!</button><!-- gomb -->
 
-    <h1 id="output1"></h1>
-
-
-    <div id="correct" style="background-color: green; color: white; width: 40vh; padding: 30px; position: fixed; top: 40vh; left: 50vh; right: 50vh; display: none;  ">
-        <h1>Your answer is correct!</h1>
-        <button id="thx">Thank you</button>
-
-        <div id="incorrect" style="background-color: green; color: white; width: 40vh; padding: 30px; position: fixed; top: 40vh; left: 50vh; right: 50vh; display: none;  ">
-            <h1>Your answer is incorrect :</h1>
-            <button id="thx">Try Again</button>
-        
+            <h1 id="output1"></h1>
         
 
-            
-    
-    </div>
-        
+
+        <div id="correct"
+            style="background-color: #1f3429; color: white; width: 40vh; padding: 30px; position: fixed; top: 40vh; left: 50vh; right: 50vh; display: none; ">
+            <h1>Your answer is correct!</h1>
+            <button id="thx">Thank you</button><!-- Felugró ablak -->
+
+            <!-- <div id="incorrect"
+                style="background-color: green; color: white; width: 40vh; padding: 30px; position: fixed; top: 40vh; left: 50vh; right: 50vh; display: none;  ">
+                <h1>Your answer is incorrect :</h1>
+                <button id="thx">Try Again</button>
+
+
+
+
+
+            </div>
+ -->
     </main>
     <footer>
         <!-- <div class="row">
