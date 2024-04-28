@@ -8,3 +8,12 @@
     justify-content: center;
     color: var(--font);
 }
+.row img{
+    max-width: 100%;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*csak ezeket adtam hozzá, a living room css-be láttam hogy van több is, de kommentbe vannak, úgyhogy gondolom nem szükségesek*/
