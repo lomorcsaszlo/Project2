@@ -5,7 +5,7 @@
     
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -57,7 +57,6 @@ header a:hover {
     color: var(--font);
     background-color: var(--white);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
 
 }
 

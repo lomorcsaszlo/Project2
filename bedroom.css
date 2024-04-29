@@ -18,6 +18,7 @@
     justify-content: center;
     color: var(--font);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-position: center;
 }
 .row img{
     max-width: 100%;
@@ -59,6 +60,3 @@
     }
   }
 
- .container, .row{
-    margin: 20px 0;
-}
