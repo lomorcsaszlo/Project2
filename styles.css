@@ -11,6 +11,7 @@ html{
 
 body{
     font-family: "Manrope", sans-serif;
+    
 }
 :root {
     --header-bg: #1f3429;
@@ -130,7 +131,7 @@ header a:hover {
 
 .nc{
     padding: 10vh;
-   
+
 }
 
 
@@ -169,7 +170,9 @@ footer a{
     padding-bottom: 10vh;
 }
 
-
+.ncDos{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 @media only screen and (max-width: 991px) {
     .nc{
