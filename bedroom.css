@@ -1,4 +1,12 @@
 
+:root {
+    --header-bg: #1f3429;
+    --font: #EDE0D4;
+     --white: #d7d7d7;
+}
+
+
+
 
 .upimgBED{
     background-image: url("./img/bedroomUpper.jpg");
@@ -9,6 +17,7 @@
     align-items: center;
     justify-content: center;
     color: var(--font);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .row img{
     max-width: 100%;
@@ -19,3 +28,37 @@
     justify-content: center;
 }
 /*csak ezeket adtam hozzá, a living room css-be láttam hogy van több is, de kommentbe vannak, úgyhogy gondolom nem szükségesek*/
+
+
+.zoom-img {
+    overflow: hidden;
+    width: 100%; /* Adjust this width to match the image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.zoom-img img {
+    transition: transform 0.4s ease;
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.zoom-img:hover img {
+    transform: scale(1.1);
+    width: 100%;
+}
+
+.ncDos{
+    background-color: #eeeeee;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .ncDos{
+        margin-top: 0;
+    }
+  }
+
+ .container, .row{
+    margin: 20px 0;
+}

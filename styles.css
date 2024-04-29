@@ -20,7 +20,6 @@ body{
 
  header .fixed-top {
     background-color: var(--header-bg); 
-    
 
 } 
 
@@ -28,9 +27,11 @@ header {
     background-color: var(--header-bg);
     
     
+    
 }
 #indheader{
     margin-top: 50px;
+    
 }
 
 header a {
@@ -54,6 +55,9 @@ header a:hover {
     align-items: center;
     justify-content: center;
     color: var(--font);
+    background-color: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
 
 }
 
@@ -80,7 +84,7 @@ header a:hover {
 /*main*/
 .sec1 {
     text-align: center;
-
+    
 }
 
 
@@ -127,7 +131,7 @@ header a:hover {
 
 .nc{
     padding: 10vh;
-    background-color: var(--white);
+   
 }
 
 
@@ -166,10 +170,13 @@ footer a{
     padding-bottom: 10vh;
 }
 
+
+
 @media only screen and (max-width: 991px) {
     .nc{
         padding: 10px;
     }
   }
+
 
 
