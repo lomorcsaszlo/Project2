@@ -152,18 +152,18 @@ header a:hover {
  */
 
 footer{
-    height: 12vh;
+/*      height: 12vh;
     background-color: var(--header-bg);
     color: var(--font);
     padding: 50px 40vh;
     text-align: center;
-    color: var(--font);
+    color: var(--font);  */
     
     
 }
 footer a{
-    color: var(--font);
-    text-decoration: none;
+/*     color: var(--font);
+    text-decoration: none; */
 }
 .prods{
     text-align: center;
