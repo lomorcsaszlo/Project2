@@ -62,7 +62,7 @@ header a:hover {
 
 }
 
-#hedbut {
+#hedbut{
     background-color: var(--header-bg);
     color: var(--font);
     text-decoration: none;

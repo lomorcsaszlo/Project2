@@ -9,6 +9,9 @@ const thxbut = document.getElementById("thx")
 const uno = document.getElementById("uno")
 
 
+/* Dark Mode consts */
+const but = document.getElementById("dmb")
+
 let count = 0
 
 
@@ -34,7 +37,6 @@ check.addEventListener("click", function () {
 
 
 
-
-
+/* Dark Mode Button */
 
 

@@ -51,7 +51,7 @@
 }
 
 .ncDos{
-    background-color: #ffe9db;
+    background-color: #c0c0c0;
 }
 @media only screen and (max-width: 991px) {
     .ncDos{
@@ -150,5 +150,59 @@
   }
 
 .ncTres{
-    background-color: #fff7f2;
+    background-color: #d7d7d7;
+}
+
+
+#hedbut2{
+  background-color: var(--header-bg);
+  color: var(--font);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.3s;
+
+}
+
+#hedbut2:hover {
+  color: var(--header-bg);
+  background-color: var(--font);
+  
+  
+  
+}
+
+
+
+.dark-modeDos {
+  background-color: #E6CCB2 ;
+}
+.dark-modeTres{
+  background-color: #DDB892 ;
+}
+/* 
+button.addEventListener("click", function() {
+    var element = up;
+    element.classList.toggle("dark-mode");
+}
+) */
+
+
+
+#dmb{
+    background-color: var(--header-bg);
+    color: var(--font);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: 0px;
+}
+
+#dmb:hover {
+  color: var(--header-bg);
+  background-color: var(--font);
+  
+  
+  
 }
