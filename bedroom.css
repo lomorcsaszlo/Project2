@@ -171,15 +171,21 @@
   
   
 }
-
+#dmb2{
+  display: none;
+}
 
 
 .dark-modeDos {
-  background-color: #E6CCB2 ;
+  background-color: #E6CCB2;
 }
 .dark-modeTres{
-  background-color: #DDB892 ;
+  background-color: #DDB892;
 }
+#dark{
+  display: none;
+}
+
 /* 
 button.addEventListener("click", function() {
     var element = up;
@@ -189,7 +195,7 @@ button.addEventListener("click", function() {
 
 
 
-#dmb{
+#dmb, #dmb2{
     background-color: var(--header-bg);
     color: var(--font);
     text-decoration: none;
@@ -199,7 +205,8 @@ button.addEventListener("click", function() {
     border: 0px;
 }
 
-#dmb:hover {
+
+#dmb:hover, #dmb2:hover {
   color: var(--header-bg);
   background-color: var(--font);
   
