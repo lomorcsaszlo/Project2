@@ -10,8 +10,6 @@ var mode = "light"
 button.addEventListener("click", function() {
     up.classList.toggle("dark-modeDos");
     down.classList.toggle("dark-modeTres");
-    button.classList.toggle("darkmodeButton");
-    button2.classList.toggle("darkmode2");
 })
 
 
