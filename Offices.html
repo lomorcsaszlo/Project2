@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <meta name="theme-color" content="#1f3429">
     <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="darkmode.js" defer></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="icon" type="image/x-icon" href="./img/icons8-couch-48.png">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="office.css">
-
-    <title>Furnitures</title>
+    <link rel="stylesheet" href="bedroom.css">
+    <title>Bedrooms</title>
 </head>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~NAVBAR~~~~~~~~~~~~~~~~~~~~~~~-->
 <body>
-    <header>
+    <header id="indheader">
         <!-- class="fixed-top  -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Furnitures</a>
+                <a class="navbar-brand" href="./index.html"> Furnitures</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,37 +35,147 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                         <a class="nav-link" href="#shop">Shopping</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="./morse.html">Morse Game</a>
+                        
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-  
+    <!--~~~~~~~~~~Oldalra igazított kép és mellette a szöveg~~~~~~~~~~~~~~~-->
     <main>
-        <div class="upimgOF">
-            
+        <div class="upimgBED">
         </div>
-        
-    </main>
-    <footer>
-        <!-- <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4">
+        <div class="nc ncTres" id="ncTres">
+            <div class="container">
                 <div class="row">
-                    <div class="col-4"><h5>Home</h5></div>
-                    <div class="col-4"><h5>Special Offers</h5></div>
-                    <div class="col-4"><h5>Cats</h5></div>
+                    <div class="text1 col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="firstText">
+                            <h2>The bedroom</h2>
+                            <p>Step into your personal haven. The bedroom, where comfort meets style effortlessly. Sink
+                                into soft linens, bask in the warm glow of ambient lighting, and let the day's stresses
+                                melt away. It's more than just a room; it's your sanctuary, where dreams are dreamt and
+                                memories are made. Explore our carefully curated collection of bedroom essentials, and
+                                elevate your space into a haven of relaxation and rejuvenation.</p> <!-- Chatgpt -->
+                        </div>
+                    </div>
+                    <!--ide is kerestem másik képet-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <!-- majd uj kep kell, jo meretben -->
+                        <div class="zoom-img">
+                            <img src="./img/Bedroom2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--~~~~~~~~~~~~A kisebb kártyák melyek megnagyobbodnak a kurzor rávivetelekor~~~~~~~~~~~~~~~~~~~~-->
+                <div class="secondrow">
+                    <div class="cards">
+                        <div class="row" id="shop">
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/kitchen.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/office small pic.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/living room.jpg" alt="">
+                                </div>
+                                <!--megváltoztattam itt hogy mire mutasson meg szedtem le képeket, ha esetleg mást kéne iderakni kedden megbeszéljük-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="col-4"></div>
-        </div> -->
+        </div>
+        </div>
+        <div class="nc ncDos" id="ncDos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <!-- majd uj kep kell, jo meretben -->
+                        <!--~~~~~~~~~~~Az oldal második része, ezúttal balra igazítva~~~~~~~~~~~~~-->
+                        <div class="zoom-img">
+                            <img src="./img/Bedroom2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="text1 col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="firstText">
+                            <h2>The bedroom</h2>
+                            <p>Step into your personal haven. The bedroom, where comfort meets style effortlessly. Sink
+                                into soft linens, bask in the warm glow of ambient lighting, and let the day's stresses
+                                melt away. It's more than just a room; it's your sanctuary, where dreams are dreamt and
+                                memories are made. Explore our carefully curated collection of bedroom essentials, and
+                                elevate your space into a haven of relaxation and rejuvenation.</p> <!-- Chatgpt -->
+                        </div>
+                    </div>
+                </div>
+                <div class="secondrow">
+                    <div class="cards">
+                        <div class="row" id="shop">
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/kitchen.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/officeRight.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="small col-12 col-sm-12 col-md-12 col-lg-4">
+                                <div class="zoom-img">
+                                    <img src="./img/living room.jpg" alt="">
+                                </div>
+                                <!--megváltoztattam itt hogy mire mutasson meg szedtem le képeket, ha esetleg mást kéne iderakni kedden megbeszéljük-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <!--~~~~~~~~~~~~A footer~~~~~~~~~~~~~~~~~~-->
+    <footer>
+        <div class="footer-dark">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Producing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                            <h3><button id="dmb">Color Mode Change Button</button></h3>
+                        </div>
+                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    </div>
+                    <p class="copyright">MorseFurnitures © 2024</p>
+                </div>
+            </footer>
+        </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
