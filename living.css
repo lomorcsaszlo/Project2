@@ -49,15 +49,15 @@ body{
   }
 
 .firstnc{
-    background-color: #EDE0D4;
-}
-
-.secondnc{
     background-color: #E6CCB2;
 }
 
-.thirdnc{
+.secondnc{
     background-color: #DDB892;
+}
+
+.thirdnc{
+    background-color: #E6CCB2;
 }
 
 .footer-dark {
@@ -149,3 +149,24 @@ body{
     font-size:13px;
     margin-bottom:0;
   }
+
+  .nc{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  }
+
+  .zoom-img {
+    overflow: hidden;
+    width: 100%; /* Adjust this width to match the image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.zoom-img img {
+    transition: transform 0.4s ease;
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.zoom-img:hover img {
+    transform: scale(1.1);
+    width: 100%;
+}
