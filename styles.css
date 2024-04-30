@@ -276,3 +276,33 @@ footer a{
 
 /* ffebdf */
 
+
+#dmb, #dmb2{
+    background-color: var(--header-bg);
+    color: var(--font);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: 0px;
+}
+
+
+#dmb:hover, #dmb2:hover {
+  color: var(--header-bg);
+  background-color: var(--font);
+  
+  
+  
+}
+
+
+.dark-modeDos {
+    background-color: #E6CCB2;
+  }
+  .dark-modeTres{
+    background-color: #DDB892;
+  }
+  #dark{
+    display: none;
+  }
