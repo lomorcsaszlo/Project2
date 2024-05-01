@@ -156,14 +156,14 @@ body{
 
   .zoom-img {
     overflow: hidden;
-    width: 100%; /* Adjust this width to match the image width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 .zoom-img img {
     transition: transform 0.4s ease;
-    width: 100%; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
 
 .zoom-img:hover img {
