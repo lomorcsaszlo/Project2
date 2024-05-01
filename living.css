@@ -1,6 +1,6 @@
 /* *{
     margin: 0;
-} */
+} 
 .headimg {
     background-image: url("./img/livingBig.jpg");
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body{
     padding-right: 0;
 }
 
-*/
+
 
 .text1{
     display: flex;
@@ -170,3 +170,4 @@ body{
     transform: scale(1.1);
     width: 100%;
 }
+
